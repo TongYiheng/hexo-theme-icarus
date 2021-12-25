@@ -11,11 +11,11 @@ widgets:
         # Author's current location
         location: Hangzhou, China
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/favicon.svg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
-        gravatar: liuxinyu0922@hotmail.com
+        gravatar:
         # URL or path for the follow button
         follow_link: 'https://www.github.com/AlphaLxy'
         # Links to be shown on the bottom of the profile widget

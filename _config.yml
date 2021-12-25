@@ -154,9 +154,16 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    type: disqusjs
     # Disqus shortname
     shortname: alphalxy-blog
+    api_key:
+      - 5vNlbaVFbUWJEfg45a4W2eS1pGk6YDf3BoRmbUt5oCteUtJalJxdik6EgZWDGICC
+      - M6U0tycmlOwkeadjgjGrrUYJZzR7LFakiur7ad78eImTGkJjqU1lFgHXAPzZHNb8
+      - lVltbGH4pPUYFwdOi0JDh1hmwMRtuUF05Yyc1MyBUoJRBQhn4wQoG90VB0j3N1NJ
+      - uQbbc193Lwj7pyDJRszhRZRs6Kl7PPfpVjAgfN46WNmUoFaqTpiZ7dxkPYL13NNZ
+      - mu8gCIMF7kJw1sxvCsrndjV8HfRzswjS38kjPkpimTIfZ3DmSvA3UK3r7WWVLdNJ
+    api: https://disqus.skk.moe/disqus/
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
@@ -224,11 +231,11 @@ widgets:
         # Author's current location
         location: Hangzhou, China
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/favicon.svg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
-        gravatar: liuxinyu0922@hotmail.com
+        gravatar:
         # URL or path for the follow button
         follow_link: 'https://www.github.com/AlphaLxy'
         # Links to be shown on the bottom of the profile widget
